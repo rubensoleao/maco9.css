@@ -5,6 +5,10 @@ $shadow-white: #ffffff;
 $shadow-light: #9c9c9c;
 $shadow-black: #000000;
 
+/* sass */
+@use "sass:string";
+
+
 /* Fonts */
 @font-face {
   font-family: 'Charcoal';
@@ -52,7 +56,7 @@ body {
       'px 0px 0px #737373';
     $box-shadow: $box-shadow + $shadows + ', ';
   }
-  @return str_slice(unquote($box-shadow), 0, str_length($box-shadow)-2);
+  @return string.slice(string.unquote($box-shadow), 1, string.length($box-shadow)-2);
 }
 
 .title-bar {
