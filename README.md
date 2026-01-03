@@ -18,7 +18,7 @@ Pixel perfect recreation of MacOS 9's Platinum UI.
 </a>
 </p>
 
-Inspired by [98.css](https://github.com/jdan/98.css) (build.js and markup were taken from there).
+Forked from unfinished work by [**mat-sz**](https://github.com/mat-sz/platinum.css) abd Inspired by [98.css](https://github.com/jdan/98.css) (build.js and markup were taken from there).
 
 ## Installation
 
